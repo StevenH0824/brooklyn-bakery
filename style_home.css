@@ -18,12 +18,14 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #3C5B6F;
+    width: 100%;
+    position: fixed;
 }
 .header > p {
     font-size: 24px;
     font-weight: bold;
     color:#948979;
-    padding:5px;
+    padding: 5px 5px 5px 5px;
 }
 
 .header-links {
@@ -33,22 +35,30 @@ a {
     justify-content: flex-end;
     text-align: center;
     gap:10px;
-
-    border: 1px solid #fff;
 }
 
 .home{
     padding-top: 5px;
-    border: 1px solid #000;
+}
+
+.menu{
+    padding-top: 5px;
 }
 
 .about-us{
     padding-top: 5px;
-    border: 1px solid lightcoral;
 }
 
 .contact-us{
     padding-top: 5px;
-    border: 1px solid lightgreen;
+    padding-right: 5px;
 }
 
+img {
+    max-width: 200px;
+    height: auto;
+}
+
+article{
+    background-color: #948979;
+}
