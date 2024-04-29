@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style_home.css">
+        <link rel="stylesheet" href="styles.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Brooklyn Bakery</title>
@@ -14,29 +14,45 @@
                 <a href="" alt="Menu page link" class="menu">Menu</a> 
                 <a href="/about.html" alt="About us page link" class="about-us">About Us</a>
                 <a href="/contact.html" alt="Contact Us link" class="contact-us">Contact Us</a>
-                <!--
-                -->
             </div>
         </div>
 
         <div class="store">
-            <h1>Brooklyn Bakery</h1>
-            <p>New York City</p>
-            <p>999 Normandy Street</p>
-            <p>Business Hours:</p>
-            <p>Open Everyday: 12PM - 7PM</p>
+            <div class="store-locations">
+
+                <address>
+                    Brooklyn Bakery<br>
+                    Visit us at:<br>
+                    999 Normandy Street<br>
+                    Brookyln, NY<br>
+                    USA
+                </address>
+                <p>Business Hours:</p>
+                <p>Open Everyday: 12PM - 7PM</p>
+            </div>
+        </div>
+        <div id="map">
+            <!--
+                Theoretically, I would have like to replace this with API call, but I
+                can't afford to pay money so all your getting for now is a bad picture.
+                I need to do more research since they do have a free tier so I'll come
+                back to this a bit later if I don't have to spend money.
+            -->
+            <img src="/store_location.png" alt="Brooklyn Bakery Location" class="map-location">
         </div>
 
-        <article>
-            <header>
-              <h1>A heading here</h1>
-              <img src="/deva-williamson-S2jw81lfrG0-unsplash.jpg" alt="cupcake picture">
-              <p>Posted by John Doe</p>
-              <p>Some additional information here</p>
-            </header>
-            <p>Lorem Ipsum dolor set amet....</p>
-        </article>
-
-        </ul>
+        <figure>
+            <blockquote>
+                <p>
+                    Baking is about transformation.
+                    Turning flour into cakes, eggs into custard, and ideas into something real.
+                </p>
+            </blockquote>
+            <figcaption>
+                <cite>Barbara Kafka</cite>,
+                <cite>Culinary Legend</cite>
+            </figcaption>
+            
+        </figure>
     </body>
 </html>
