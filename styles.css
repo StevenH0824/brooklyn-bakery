@@ -40,7 +40,7 @@ address{
     flex: 1 0 auto;
     justify-content: flex-end;
     text-align: center;
-    gap:10px;
+    gap:20px;
 }
 
 .home{
@@ -110,3 +110,31 @@ figcaption{
     justify-content: center;
     flex:2 0 auto;
 }
+
+.menu-all{
+    display:flex;
+    flex: 3 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #948979;
+    color:#3C5B6F;
+}
+
+.menu-item{
+    text-align: center;
+    min-width: 400px;
+    border: 1px solid #3C5B6F;
+    margin: 0px 10px 0px 10px;
+    background-color: #DFD0B8;
+    border-radius: 20%;
+}
+
+.menu-photo{
+    max-width:200px;
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 200px;
+    border: 1px solid #DFD0B8;
+    border-radius: 10%;
+}
+
